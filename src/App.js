@@ -14,10 +14,10 @@ function App() {
         <Header />
         <main>
           <Routes>
-            <Route path="/" exact component={HomePage} />
-            <Route path="/about" component={AboutPage} />
-            <Route path="/portfolio" component={PortfolioPage} />
-            <Route path="/contact" component={ContactPage} />
+            <Route path="/" exact element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/portfolio" element={<PortfolioPage />} />
+            <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </main>
       </div>
